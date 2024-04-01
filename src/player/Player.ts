@@ -307,7 +307,7 @@ export function buildTrack(
       (splits[0].length > 20 ? "..." : ""),
     created: new Date().valueOf(),
     tracks: splits.map((s) => ({
-      text: s,
+      text: s.trim(),
       isLoadable: false,
       audio: undefined,
     })),
