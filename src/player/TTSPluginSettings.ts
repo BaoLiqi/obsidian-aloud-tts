@@ -17,7 +17,7 @@ export const DEFAULT_SETTINGS: TTSPluginSettings = {
 } as const;
 
 /** interface is easier if its just some canned speeds */
-export const PLAYBACK_SPEEDS = [0.75, 1.0, 1.25, 1.5, 1.75, 2.0];
+export const PLAYBACK_SPEEDS = [0.8, 1.0, 1.2];
 
 export function nextSpeed(current: number): number {
   return PLAYBACK_SPEEDS[
